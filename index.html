@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Viajes</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script>
+function eurosDolares(valNum) {
+  document.getElementById("inputDolares").value=valNum*6.91;
+}
+function dolaresEuros(valNum) {
+  document.getElementById("inputEuros").value=valNum*0.864875337;
+}
+</script>
+<script language="JavaScript" type="text/javascript">
+
+    //<![CDATA[
+    
+    mensagem = prompt("Por favor, ingresa tu nombre",'');
+    
+    if (mensagem==null) {
+    
+    document.write("¡Hola, visitante!")
+    
+    }else{
+    
+    if (mensagem=='') {
+    
+    document.write("<b><font face=arial size=5 color=#000000>¡Hola, visitante!<\/font><\/b>")
+    
+    }
+    
+    }
+    
+    //]]>
+    
+    </script>
+    
+    <span class="Apple-style-span" style="font-family: 'Trebuchet MS', sans-serif;">
+    
+    </span>
+    
+    <span class="Apple-style-span" style="font-family: 'Trebuchet MS', sans-serif;">
+    
+    </span>
+    
+
+<body>
+    <header class="site-header contenedor">
+        <img src="img/logo.png" alt="Logo del Blog">
+    </header>
+
+    <div class="barra">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Blog</a>
+            <a href="#">Tienda</a>
+            <a href="#">Contacto</a> 
+            <label for="hola"><script>document.write("<b><font face=arial size=5 color=#000000>¡Hola "+mensagem+"! Bienvenido a mi sitio<\/font><\/b>");
+            </script></label>
+        </nav>
+    </div>
+
+    <div class="contenedor clearfix">
+        <main class="contenido-principal">
+
+            <article class="entrada">
+                <h2>Viajar a Londres</h2>
+                <img src="img/imagen_1.jpg" alt="Viaje a Londres">
+
+                <p>Cuando explore la ciudad por primera vez, puede realizar un recorrido panorámico en autobús de un día completo que lo llevará a la Catedral de St. Paul, la Torre de Londres, donde podrá explorar el interior del castillo y un recorrido panorámico en barco por el Támesis. . Pero Londres ofrece muchas más oportunidades para subirse a un autobús turístico . Por la noche, la ciudad brilla con una luz completamente diferente y puedes verla desde un autobús descapotable . O puede reírse mucho uniéndose a la gira del autobús fantasma de comedia de terror .</p>
+                <p>Samuel Johnson dijo una vez que “cuando un hombre está cansado de Londres, está cansado de la vida”. Y tenía razón. Londres ofrece algo para todos. Desde musicales en el famoso teatro West End hasta pubs que se remontan a la época de Sherlock Holmes. La ciudad sirve de escenario para las historias de personajes famosos y menos famosos y es el hogar de los coches rojos de dos pisos..</p>
+
+                <a href="#" class="boton">Leer Más</a>
+            </article>
+
+            <article class="entrada">
+                <h2>Puente de Pancratzia</h2>
+                <img src="img/imagen_2.jpg" alt="Puente de Pancratzia">
+
+                <p>Nuestro martes de boda hoy viene cargado de sentimientos. En diciembre hará 2 años que mi actual esposo me pidió matrimonio y lo hizo de la mejor manera ever: Un 31 de diciembre, esperando los fuegos artificiales de NYC en el puente de Brooklyn, a las 12:00 a.m. Sacó el anillo, que había estado escondiendo toda esa noche en su pantalón. (súper incómodo para él). Me sorprendió totalmente. Ahí en medio de un frío polar, con un vestido y unos zapatos elegidos por él, en la mañana de compras que tuvimos. Ahí mirandome a los ojos y haciéndome sentir que todo a mi alrededor no importaba, sólo nosotros dos. (Aunque me haya perdido una vez más unos juegos pirotécnicos en un lugar tan espectacular).  Así que le guardo especial cariño a ese puente. Al igual que el de Queensboro de esa misma ciudad, pero eso ya es otra historia.</p>
+                <p>Así que decidí buscar una sesión de fotos realizadas a novios antes de su boda en ese puente y sabía que encontraría unas cuantas y no me equivoqué. Un símbolo de New York tan emblemático, tenía que ser escenario de momentos así, si o si.</p>
+
+                <a href="#" class="boton">Leer Más</a>
+            </article>
+
+            <article class="entrada">
+                <h2>Puente de Londres</h2>
+                <img src="img/imagen_3.jpg" alt="Puente de Londres">
+
+                <p>El Puente de Londres actual fue construido por John Mowlem de 1967 a 1972 e inaugurado por la reina Isabel II el 17 de marzo de 1973. Tiene 283 m de largo. El coste de 4 millones de libras esterlinas fue asumido en su totalidad por Bride House Estates..</p>
+                <p>El puente de Londres, conocido por muchos niños en todo el mundo gracias a la canción de cuna (London bridge is falling down), no se estaba cayendo precisamente. Pero sí estaba a punto de ser desmantelado piedra por piedra y reemplazado por uno nuevo.</p>
+
+                <a href="#" class="boton">Leer Más</a>
+            </article>
+
+        </main>
+
+        <aside class="sidebar">
+
+            <div class="otras-entradas contenedor">
+                <h2>Otros Posts</h2>
+                <ul>
+                    <ul>
+                        <li><a href="ADMINISTRADOR/index.html">Entrada 1</a></li>
+                        <li><a href="#">Entrada 2</a></li>
+                        <li><a href="#">Entrada 3</a></li>
+                        <li><a href="#">Entrada 4</a></li>
+                    </ul>
+                    
+                    
+                    
+                    <h2>Conversor de monedaS</h2>
+                    <p>
+                    <label>DOLAR</label>
+                    <input id="inputEuros" type="number" placeholder="DOLAR" oninput="eurosDolares(this.value)" onchange="eurosDolares(this.value)">
+                  </p>
+                  <p>
+                    <label>BOLIVIANOS</label>
+                    <input id="inputDolares" type="number" placeholder="BOLIVIANOS" oninput="dolaresEuros(this.value)" onchange="dolaresEuros(this.value)">
+                  </p>             </ul>
+
+            </div>
+        </aside>
+    </div>
+
+    <footer class="footer-sitio">
+        <div class="contenedor clearfix">
+            <section class="nosotros">
+                <h2>Sobre Nosotros</h2>
+                <p>un viaje dentro de un país, una región y dentro de nosotros… Recuerdo que hace años tuve el placer de ver una película que sin mucho esfuerzo se convirtió en una de las que se vuelven de visita recurrente, de recomendación constante y presencia permanente.
+
+                    Ni uno menos (1999), del director chino Zhang Yimou, presenta la historia de una niña de 13 años que queda a cargo de una pequeña escuela rural debido al viaje de urgencia del profesor que la lleva adelante.
+                    
+                    Ante la constante migración de familias a las ciudades en busca de modos de subsistencia, el profesor le promete hacerle un pago por los servicios si a su retorno no hay ni un alumno menos.</p>
+            </section>
+
+            <section class="menu">
+                <h2>Menú de Navegación</h2>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Tienda</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </section>
+        </div>
+
+        <p class="copy">
+            ilvamar-bolivia
+        </p>
+    </footer>
+
+</body>
+
+</html>
